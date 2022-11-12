@@ -1,0 +1,99 @@
+body{
+    background-color: gray;
+}
+.img{
+    width: 720px;
+    height: auto;
+    
+}
+.title{
+    font-family: Island Moments, sans-serif;
+    font-size: 32px;
+}
+h1{
+    text-align: center;
+    border: solid 01px;
+    width: 70%;
+    height: 100%;
+    background-color: black;
+    margin: 0 auto 0 auto;
+    color: #ffffff;
+}
+
+@media(max-width:2560px) and (min-width:1440px) {
+    h1{
+        font-size: 40px;
+    }
+    .img{
+        width: 70%;
+        height: auto;
+        
+    }
+    .title{
+        
+        font-size: 45px;
+    }
+    .post-content{
+        
+        font-size: 24px;
+    }
+    
+    
+}
+
+@media(max-width:768px){
+    h1{
+        font-size: 32px;
+    }
+    .img{
+        width: 90%;
+        height: auto;
+        
+    }
+    .title{
+        font-size: 32px;
+    }
+    .post-content{
+        font-size: 18px;
+    }
+    
+    
+}
+
+@media(max-width:425px){
+    h1{
+        font-size: 22px;
+    }
+    .img{
+        width: 100%;
+        height: auto;
+    }
+    .title{
+        text-align: center;
+    }
+    .post-content{
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    
+}
+@media(max-width:321px){
+    h1{
+        font-size: 18px;
+    }
+
+    .img{
+        width: 100%;
+        height: auto;            
+    }
+    .title{
+        text-align: center;
+    }
+    .post-content{
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    
+}
